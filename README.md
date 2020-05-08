@@ -5,7 +5,7 @@ A turn based rpg in phaser js
 The easyest way to run the app is from docker with docker-compose.
 
 ## Debian based distribution
-> the procedure bellow describe how to setup a testing environement, you shoulden't run this app in production at this stage of developpement
+> the procedure bellow describe how to setup a testing environement, you shouldn't run this app in production at this stage of developpement
 
 ### install git, docker and docker-compose
 ```sudo apt-get install -y git docker docker-compose```
