@@ -14,8 +14,8 @@ const secureRoutes = require('./routes/secure');
 const passwordRoutes = require('./routes/password');
 
 // setup mongo connection
-const uri = process.env.MONGO_CONNECTION_URL;
-mongoose.connect(uri, { useNewUrlParser : true, useCreateIndex: true , useUnifiedTopology: true});
+const url = 'mongodb://'+process.env.DB_USER +':'+ process.env.DB_PASSWORD +'@'+ process.env.MONGO_CONNECTION_URL;
+mongoose.connect(url, { useNewUrlParser : true, useCreateIndex: true , useUnifiedTopology: true});
 mongoose.connection.on('error', (error) => {
   console.log(error);
   process.exit(1);

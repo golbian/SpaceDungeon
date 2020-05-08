@@ -8,7 +8,7 @@ const asyncMiddleware = require('../middleware/asyncMiddleware');
 const UserModel = require('../models/userModel');
 
 const email = process.env.EMAIL;
-const pass = process.env.PASSWORD;
+const pass = process.env.EMAIL_PASSWORD;
 
 const smtpTransport = nodemailer.createTransport({
   service: process.env.EMAIL_PROVIDER,
