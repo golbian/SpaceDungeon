@@ -17,7 +17,7 @@ services:
   restart: always
   volumes:
    - /var/mongodb-spacedungeon:/data/db
-   - mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+   - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
   environment:
    MONGO_INITDB_ROOT_USERNAME: root
    MONGO_INITDB_ROOT_PASSWORD: example
