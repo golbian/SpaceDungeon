@@ -35,14 +35,14 @@ The easyest way to run the app is from docker with docker-compose.
 ```
 db.createUser(
         {
-            # define the username of the new database user (must be the same as defined in .env file)
+            // define the username of the new database user (must be the same as defined in .env file)
             user: "db_username",
-            # define the password of the new database user (must be the same as defined in .env file)
+            // define the password of the new database user (must be the same as defined in .env file)
             pwd: "db_password",
             roles: [
                 {
                     role: "readWrite",
-                    # define database name (must be the same as defined in .env and docker-compose.yml files)
+                    // define database name (must be the same as defined in .env and docker-compose.yml files)
                     db: "spacedungeon1"
                 }
             ]
@@ -57,7 +57,7 @@ MONGO_CONNECTION_URL= 'mongodb-spacedungeon:27017'
 # name of the database created by mongo-init.js script at container start
 DB_NAME= 'spacedungeon1'
 # username of the database user created by mongo-init.js script at container start
-DB_USER= 'db_user'
+DB_USER= 'db_username'
 # password of the database user created by mongo-init.js script at container start
 DB_PASSWORD= 'db_password'
 # SMTP password of the email sending account
