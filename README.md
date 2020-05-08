@@ -4,14 +4,14 @@ A turn based rpg in phaser js
 # Getting started
 The easyest way to run the app is from docker with docker-compose.
 
-## Debian based distribution :
-### install git, docker and docker-compose :
+## Debian based distribution
+### install git, docker and docker-compose
 ```sudo apt-get install -y git docker docker-compose```
 
-### create persistant database directory :
+### create persistant database directory
 ```sudo mkdir /var/mongodb-spacedungeon```
 
-### clone repository :
+### clone repository
 ```git clone https://github.com/golbian/SpaceDungeon.git```
 
 ### go to the cloned local repository
@@ -23,9 +23,9 @@ The easyest way to run the app is from docker with docker-compose.
 ```
 db.createUser(
         {
-            # define the username of the new database user (must be the same as defined in .env and docker-compose.yml files)
+            # define the username of the new database user (must be the same as defined in .env file)
             user: "spacedungeon",
-            # define the password of the new database user (must be the same as defined in .env and docker-compose.yml files)
+            # define the password of the new database user (must be the same as defined in .env file)
             pwd: "exemple",
             roles: [
                 {
@@ -45,13 +45,13 @@ MONGO_CONNECTION_URL= 'mongodb-spacedungeon:27017'
 # name of the database created by mongo-init.js script at container start
 DB_NAME= 'spacedungeon1'
 # username of the database user created by mongo-init.js script at container start
-DB_USER= 'TEST'
+DB_USER= 'db_user'
 # password of the database user created by mongo-init.js script at container start
 DB_PASSWORD= 'db_password'
 # SMTP password of the email sending account
 EMAIL_PASSWORD= 'mail_password'
 # name of the email provider
-EMAIL_PROVIDER= 'mail'
+EMAIL_PROVIDER= 'email_provider'
 # email address used to send mails
 EMAIL= 'your_mail@mail.com'
 ```
@@ -70,4 +70,4 @@ MONGO_INITDB_DATABASE: spacedungeon1
 ## run the docker stack
 ```docker-compose up -d```
 
-## glhf
+# glhf
