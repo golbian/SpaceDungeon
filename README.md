@@ -20,7 +20,8 @@ The easyest way to run the app is from docker with docker-compose.
 ### there is 3 files to edit before building container
 
 - mongo-init.js : initialise the database and user at container start
-```db.createUser(
+```
+db.createUser(
         {
             # define the username of the new database user
             user: "spacedungeon",
@@ -38,7 +39,8 @@ The easyest way to run the app is from docker with docker-compose.
 ```
 
 - .env : contain environement variables used by nodejs
-```# should contain mongodb container name
+```
+# should contain mongodb container name
 MONGO_CONNECTION_URL= 'mongodb-spacedungeon:27017/'
 # name of the database created by mongo-init.js script at container start
 DB_NAME= 'spacedungeon'
@@ -54,7 +56,8 @@ EMAIL_PROVIDER= 'mail'
 EMAIL= 'your_mail@mail.com'
 ```
 - docker-compose.yml : define the docker stack
-```# define the root mongodb user
+```
+# define the root mongodb user
 MONGO_INITDB_ROOT_USERNAME: root
 # define root password
 MONGO_INITDB_ROOT_PASSWORD: example
