@@ -1,7 +1,7 @@
 db.createUser(
         {
-            user: "spacedungeon",
-            pwd: "exemple",
+            user: "db_username",
+            pwd: "db_password",
             roles: [
                 {
                     role: "readWrite",
