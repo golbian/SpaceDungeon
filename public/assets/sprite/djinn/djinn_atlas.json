@@ -1,0 +1,424 @@
+{
+    "frames": [
+        {
+            "filename": "death5",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "death6",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 128
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flight1",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 256
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flight2",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 384
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flight3",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 512
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flight4",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 640
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "hurt1",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 768
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "hurt2",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 896
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "idle1",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 1024
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "idle2",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 1152
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "idle3",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 1280
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack1",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 1408
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack2",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 1664
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack3",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 1920
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack4",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 2176
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack5",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 2432
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack6",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 2688
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack7",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 2944
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack8",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 3200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack9",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 3456
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack10",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 3712
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack11",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 3968
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack22",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 4224
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "magic_attack23",
+            "frame": {
+                "w": 256,
+                "h": 256,
+                "x": 0,
+                "y": 4480
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "attack1",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 4736
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "attack2",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 4864
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "attack3",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 4992
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "attack4",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 5120
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "death1",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 5248
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "death2",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 5376
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "death3",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 5504
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "death4",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 0,
+                "y": 5632
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}
