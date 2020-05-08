@@ -34,7 +34,8 @@ The easyest way to run the app is from docker with docker-compose.
                 }
             ]
         }
-);```
+);
+```
 
 - .env : contain environement variables used by nodejs
 ```# should contain mongodb container name
@@ -50,16 +51,16 @@ EMAIL_PASSWORD= 'mail_password'
 # name of the email provider
 EMAIL_PROVIDER= 'mail'
 # email address used to send mails
-EMAIL= 'your_mail@mail.com'```
-
+EMAIL= 'your_mail@mail.com'
+```
 - docker-compose.yml : define the docker stack
 ```# define the root mongodb user
 MONGO_INITDB_ROOT_USERNAME: root
 # define root password
 MONGO_INITDB_ROOT_PASSWORD: example
 # define the name of the database to initialise
-MONGO_INITDB_DATABASE: spacedungeon1```
-
+MONGO_INITDB_DATABASE: spacedungeon1
+```
 ## build the container
 ```docker-compose build spacedungeon```
 
