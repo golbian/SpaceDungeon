@@ -26,7 +26,7 @@ The easyest way to run the app is from docker with docker-compose.
 ### clone the repository
 ```git clone https://github.com/golbian/SpaceDungeon.git```
 
-### go to the local repository folder
+### browse to the local repository folder
 ```cd SpaceDungeon```
 
 ### there is 3 files you must edit before building container
@@ -36,9 +36,9 @@ The easyest way to run the app is from docker with docker-compose.
 db.createUser(
         {
             # define the username of the new database user (must be the same as defined in .env file)
-            user: "spacedungeon",
+            user: "db_username",
             # define the password of the new database user (must be the same as defined in .env file)
-            pwd: "exemple",
+            pwd: "db_password",
             roles: [
                 {
                     role: "readWrite",
@@ -87,7 +87,7 @@ MONGO_INITDB_DATABASE: spacedungeon1
 ```
 CONTAINER ID        IMAGE                             COMMAND                  CREATED             STATUS              PORTS                    NAMES
 973798dade15        spacedungeon_spacedungeon   "docker-entrypoint.s…"   1 minutes ago       Up 1 minutes       0.0.0.0:8080->8080/tcp   spacedungeon
-b39c99a21c84        mongo:latest                      "docker-entrypoint.s…"   1 minutes ago        Up 1 minutes       27017/tcp                mongodb-spacedungeon
+b39c99a21c84        mongo:latest                "docker-entrypoint.s…"   1 minutes ago        Up 1 minutes       27017/tcp                mongodb-spacedungeon
 ```
 
 ## you can check the spacedungeon container output to see if the database connection is working
@@ -98,6 +98,6 @@ connected to mongo
 ```
 
 ## access the interface
-> now you can access the web interface and singup a new user account on http://127.0.0.1:8008
+> now you can access the web interface and singup a new user account on http://127.0.0.1:8080
 
 # glhf
