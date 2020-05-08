@@ -23,9 +23,9 @@ The easyest way to run the app is from docker with docker-compose.
 ```
 db.createUser(
         {
-            # define the username of the new database user
+            # define the username of the new database user (must be the same as defined in .env and docker-compose.yml files)
             user: "spacedungeon",
-            # define the password of the new database user
+            # define the password of the new database user (must be the same as defined in .env and docker-compose.yml files)
             pwd: "exemple",
             roles: [
                 {
@@ -41,9 +41,9 @@ db.createUser(
 - .env : contain environement variables used by nodejs
 ```
 # should contain mongodb container name
-MONGO_CONNECTION_URL= 'mongodb-spacedungeon:27017/'
+MONGO_CONNECTION_URL= 'mongodb-spacedungeon:27017'
 # name of the database created by mongo-init.js script at container start
-DB_NAME= 'spacedungeon'
+DB_NAME= 'spacedungeon1'
 # username of the database user created by mongo-init.js script at container start
 DB_USER= 'TEST'
 # password of the database user created by mongo-init.js script at container start
