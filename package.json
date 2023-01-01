@@ -17,7 +17,7 @@
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
-    "phaser": "^3.23.0",
+    "phaser": "^3.55.2",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {},
